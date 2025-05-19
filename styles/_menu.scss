@@ -1,0 +1,119 @@
+.menu-hero-cover {
+  height: 60vh;
+  width: 100%;
+
+  background-image: url(../Assets/Images/menu-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  height: 80%;
+
+  color: $--clr-text;
+
+  .menu-hero-left {
+    min-height: 100%;
+    flex: 1 1 40rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: $--ff-headings;
+      font-size: $--fs-heading-2;
+      margin-bottom: 2.5rem;
+    }
+
+    h4 {
+      font-family: $--ff-body;
+      font-size: $--fs-body;
+      width: 80%;
+      line-height: 1.5;
+    }
+  }
+  .menu-hero-right {
+    flex: 1 1 40rem;
+  }
+}
+
+// STARTERS
+
+.menu-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 8rem 0rem;
+  display: block;
+
+  h3 {
+    font-family: $--ff-headings;
+    font-size: $--fs-heading-3;
+    color: $--clr-text;
+    margin-bottom: 1rem;
+  }
+
+  table {
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+
+  .menu-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+    tr th {
+      background-color: $--clr-primary;
+      color: $--clr-light;
+      font-family: $--ff-headings;
+      font-size: $--fs-button;
+      padding: 1rem;
+    }
+
+    tr td {
+      font-family: $--ff-body;
+      padding: 1.2rem 1rem;
+      border-bottom: 1px solid $--clr-text;
+
+      h4 {
+        font-size: $--fs-button;
+        color: $--clr-text;
+        margin-bottom: 0.8rem;
+      }
+
+      p {
+        font-size: $--fs-button;
+        color: $--clr-text;
+      }
+    }
+
+    .price {
+      text-align: right;
+    }
+
+    tr:last-of-type {
+      border-bottom: 3px solid $--clr-primary;
+    }
+  }
+
+  .disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+    background-color: $--clr-secondary;
+
+    h5 {
+      font-family: $--ff-body;
+      font-size: $--fs-small;
+      font-style: italic;
+    }
+  }
+}

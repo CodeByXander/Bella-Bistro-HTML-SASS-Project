@@ -2,7 +2,7 @@
   min-height: 100vh;
   width: 100%;
 
-  background-image: url(../Assets/Images/contact-header.png);
+  background-image: url(../Assets/Images/contact-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,8 +17,7 @@
   width: 80%;
   margin: 5rem auto;
   background-color: $--clr-text;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   color: $--clr-light;
   padding: 8rem;
 

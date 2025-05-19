@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-_Coming soon..._ (You can update this section with a GitHub Pages or Netlify link once it's deployed.)
+[Visit Bella Bistro](https://codebyxander.github.io/Bella-Bistro-HTML-SASS-Project/index.html)
 
 ## 📄 Pages Included
 

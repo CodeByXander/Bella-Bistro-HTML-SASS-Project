@@ -31,7 +31,7 @@ git clone https://github.com/codebyxander/Bella-Bistro-HTML-SASS-Project.git
 cd Bella-Bistro-HTML-SASS-Project
 ```
 
-You can now open the index.html file in your browser.
+You can now open the `index.html` file in your browser.
 
 ## Usage
 
